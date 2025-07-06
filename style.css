@@ -68,29 +68,19 @@ a:hover {
 }
 
 .home-img {
-  width: 460px !important;  
+  width: 460px !important;
   height: auto;
   background-color: var(--pink);
   padding: 10px;
   box-shadow: 0 0 20px 5px var(--pink);
-  animation: pulseGlow 3s infinite ease-in-out;
-  transition: box-shadow 0.4s ease, transform 0.4s ease;
-}
-
-@keyframes pulseGlow {
-  0%, 100% {
-    box-shadow: 0 0 20px 5px var(--pink);
-    transform: scale(1) rotate(0deg);
-  }
-  50% {
-    box-shadow: 0 0 40px 10px var(--pink);
-    transform: scale(1.05) rotate(3deg);
-  }
+  animation: none !important; 
+  transition: box-shadow 0.4s ease;
+  transform: none !important;
 }
 
 .home-img:hover {
-  box-shadow: 0 0 40px 15px var(--pink);
-  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 0 30px 10px var(--pink);
+  transform: none !important; 
 }
 
 .description h1 {
@@ -160,7 +150,7 @@ a:hover {
 }
 
 .about-photo img {
-  width: 450px !important; 
+  width: 450px !important;
   height: auto;
   background-color: var(--pink);
   padding: 10px;
@@ -351,6 +341,7 @@ a:hover {
   background-color: #111;
 }
 
+/* Responsive adjustments */
 @media (max-width: 768px) {
   #home {
     padding: 150px 30px 50px;
@@ -359,7 +350,10 @@ a:hover {
 
   .home-img {
     width: 300px !important;
-    margin-bottom: 30px;
+    animation: none !important;
+    box-shadow: 0 0 20px 5px var(--pink);
+    transform: none !important;
+    transition: none !important;
   }
 
   .about-photo img {
