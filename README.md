@@ -1,27 +1,17 @@
-# Sila’s Personal Portfolio
+ # Sila’s Personal Portfolio
 
-A personal website showcasing Sila Doe’s bio, services and work in a responsive layout.
+A personal website showcasing Sila Doe’s bio, services, and work in a fully **responsive layout** that adapts smoothly to all devices.
 
 ## Features
-- Responsive design for all devices  
-- Sections: Home · About · Services · Portfolio · Contact  
-- Simple contact form  
+- Fully responsive design for desktops, tablets, and mobile devices  
+- Clear sections: Home · About · Services · Portfolio · Contact  
+- Simple and functional contact form with validation  
 
 ## How to Run
 1. Clone or download the project  
-2. Open `index.html` in a modern browser  
+2. Open `index.html` in any modern web browser  
 
 ## Tech Stack
 - HTML5  
 - CSS3  
-- Font Awesome  
-
-## Project Structure
-index.html
-style.css
-img/ ← project images
-assets/ ← screenshot.png
-
-## Screenshot
-![Screenshot](img/Screenshot 2025-05-15 154521.png)
-
+- Font Awesome (for icons)  
